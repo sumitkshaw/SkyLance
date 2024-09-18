@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Skylance
+
+**Skylance** is a comprehensive financial management platform that simplifies bank account management, transaction tracking, and payment processes. It is designed to provide users with a seamless and secure experience by integrating cutting-edge tools for secure payments and error tracking. The platform ensures efficient management of financial workflows for individuals and businesses alike.
+
+## Features
+
+- **Multi-Account Support:** Manage multiple bank accounts from different providers.
+- **Transaction Management:** View and filter recent transactions with detailed information.
+- **Secure Payments:** Process payments securely through **Dwolla** and verify bank information using **Plaid**.
+- **Error Monitoring:** **Sentry** integration for real-time error detection and monitoring.
+- **Database Management:** Secure and scalable storage using **Appwrite**.
+
+## Tech Stack
+
+- **Frontend:** Next.js 14, TypeScript
+- **Backend:** Appwrite (for database storage)
+- **Payments:** Dwolla and Plaid
+- **Error Monitoring:** Sentry
+- **UI Components:** Tailwind CSS, Custom React Components
+
+## Problem Statement
+
+Managing multiple financial accounts and transactions across different banks can be overwhelming, leading to inefficiencies and potential errors. Skylance solves this by providing users with a unified platform where they can manage all their accounts, view recent transactions, and handle payments securely from a single interface. This reduces the need to log in to multiple services and ensures transactions are monitored for accuracy and safety.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To run the project locally, ensure you have the following installed:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
+- **Appwrite Server** (for backend database)
+- **Dwolla** and **Plaid** accounts for payment integration
