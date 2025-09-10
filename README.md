@@ -4,7 +4,7 @@
 
 ## 🎯 Demo
 
-https://github.com/sumitkshaw/SkyLance/blob/main/SkyLance.mp4
+https://github.com/sumitkshaw/SkyLance/raw/main/SkyLance.mp4
 
 
 ## ✨ Features
