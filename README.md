@@ -2,6 +2,11 @@
 
 **Skylance** is a comprehensive financial management platform that simplifies bank account management, transaction tracking, and payment processes. It is designed to provide users with a seamless and secure experience by integrating cutting-edge tools for secure payments and error tracking. The platform ensures efficient management of financial workflows for individuals and businesses alike.
 
+## 🎯 Demo
+
+https://github.com/sumitkshaw/SkyLance/SkyLance.mp4
+
+
 ## ✨ Features
 
 - 🔢 **Multi-Account Support:** Manage multiple bank accounts from different providers.
